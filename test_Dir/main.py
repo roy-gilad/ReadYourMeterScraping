@@ -1,0 +1,3 @@
+import printfunc
+
+printfunc.printnow()
