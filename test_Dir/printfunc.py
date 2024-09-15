@@ -25,6 +25,7 @@ json_data = '''[
 data = json.loads(json_data)
 message =''
 
+
 # Get the "cons" values for the last three dates (13th, 14th, and 15th)
 for record in data[-3:]:  # Get last three records
     cons_date = record['consDate'][:10]  # Extract date part
